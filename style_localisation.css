@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+body{
+    background-color: #cbb0a9;
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./photo_cos/backprincipal.jpg);
+    height: 80px;
+    background-size: cover;
+    background-position: auto;
+}
+.beauté_by a {
+    color: beige;
+    padding: 0px 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: 0, 0, 0, 0.7;
+}
+.beauté_by span {
+    color: rgb(255, 251, 250);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.menuu{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+.menuu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+.menuu li a:hover {
+    background: #cbb0a9;
+    color: #000;
+    border-radius: 15px;
+}
+
+.menuu li .active {
+    background: #cbb0a9;
+    color: #000;
+}
+
+
+
+.entete{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; ;
+}
+.entete input{
+    width: 50%;
+    height: 40px;
+    border: 3px solid black;
+}
+.entete i{
+    font-size: 35px;
+    position: relative;
+    right: 50px;
+    top: 9px;
+}
+.BarreLocalisation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px  ;
+}
+.BarreLocalisation iframe{
+    width: 900px;
+
+}
+.Titre3p{
+    width: 500px; 
+    height: 200px;
+    background-color: #ecd8d3;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) ;
+    transition: .4s ;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.Titre3p h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    
+}
+.Titre3p p{
+    padding-left: 15px;
+}
+.Para6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.Titre3p:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+.styleBotona{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 20px;
+   
+}
+.botona{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.botona a{
+    text-decoration: none;
+    color: #fff;
+}
+.botona:hover{
+    border: 3px solid #fff;
+    color: #000;
+    font-weight: 800;
+    background-color: #cbb0a9 ;
+}
+
+
+
+footer{
+    background-color: black ;
+    
+  }
+  .footer{
+      width: 100%;
+      height: 100px;
+      padding: 15px 20px 20px 15px;
+  }
+  .icons{
+      display: flex;
+      justify-content: center;
+  }
+  .icons a {
+      text-decoration: none;
+      padding: 10px;
+      background-color:#cbb0a9;
+      margin: 10px;
+      border-radius: 50%;
+  }
+   .icons a i {
+      font-size: 25px;
+      color:white;
+     
+  } 
+  .icons a:hover{
+      background-color: #cbb0a9;
+      transition: 0.5s;
+  }
+  .icons a:hover i{
+      color: #fff;
+      transition: 0.5s;
+  } 
+  .menu{
+      margin: 0 auto;
+  }
+  .menu ul{
+      display: flex;
+      flex-wrap:wrap ;
+      justify-content: center;
+      
+  }
+  .menu ul li a {
+      color: white;
+      font-weight: 700;
+      margin: 20px;
+      text-decoration: none;
+      font-size: 1.3em;
+      transition: 0.5s;
+  
+  }
+  .menu ul li a:hover{
+    
+      color: #cbb0a9;
+     
+  }
+  .bottom{
+      margin-top: 35px;
+      padding: 20px;
+      text-align: center;    
+  }
+  .bottom p{
+      color: white;
+      font-weight: 600;
+  
+  }
+  .spen{
+      opacity: 0.7;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      margin: 0px 5px;
+      font-weight: 700;
+      color: #cbb0a9 ;
+  }
+  .spen :hover{
+      color: #000;
+  }
+
+ 
